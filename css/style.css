@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
 
+* {
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Raleway', sans-serif;
@@ -50,7 +53,7 @@ footer p {
 
 /* Banner home */
 
-main#banner {
+section#banner {
     background-image: url('../img/jane.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -83,4 +86,68 @@ main#contact{
     margin: 30px auto;
     width: 70%;
 }
+
+/* home v2*/
+section#concept,
+section#songs{
+    width: 900px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 40px 0px;
+    
+}
+
+.duas-colunas {
+    overflow: hidden;
+}
+
+.duas-colunas > div{
+    width: 50%;
+    float: left;
+   
+}
+
+section#songs li {
+    padding: 10px;
+}
+
+section#songs strong {
+    color: #fe9a2e
+}
+
+.form-group{
+    margin: 0 0 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+textarea{
+    width: 100%;
+}
+
+
+form textarea {
+    resize: none;
+    height: 100px;
+}
+
+form button {
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    margin-top: 10px;
+}
+
+.mapa {
+    padding-left: 30px;
+}
+
+.mapa iframe {
+    width: 100%;
+    height: 400px;
+    
+}
+
+
 
