@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -12,7 +12,12 @@ body {
 
 header {
     text-align: center;
-    border: 2px solid #ccc;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fff;
 }
 
 #atual {
@@ -60,6 +65,10 @@ footer p {
 
 /* Banner home */
 
+main {
+    margin-top: 138px !important;
+}
+
 section#banner {
     background-image: url('../img/jane.jpg');
     background-repeat: no-repeat;
@@ -79,7 +88,7 @@ main#about {
 }
 
 img {
-    width: 100%;
+    width: 400px;
 }
 
 cite {
@@ -109,11 +118,7 @@ section#songs {
     overflow: hidden;
 }
 
-.duas-colunas>div {
-    width: 50%;
-    float: left;
 
-}
 
 section#songs li {
     padding: 10px;
@@ -121,6 +126,10 @@ section#songs li {
 
 section#songs strong {
     color: #fe9a2e
+}
+
+main#music{
+    padding: 10px;
 }
 
 .form-group {
@@ -229,3 +238,4 @@ form button {
         margin-top: 20px;
     }
 }
+    
