@@ -118,7 +118,10 @@ section#songs {
     overflow: hidden;
 }
 
-
+.duas-colunas>div{
+    width: 50%;
+    float: left;
+}
 
 section#songs li {
     padding: 10px;
